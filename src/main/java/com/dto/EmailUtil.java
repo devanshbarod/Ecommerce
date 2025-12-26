@@ -13,8 +13,8 @@ import javax.mail.internet.MimeMessage;
 public class EmailUtil {
 	
 	public static void sendEmail(String email, String subject, String body) {
-        final String fromEmail = "devanshbarod76@gmail.com"; // sender's email
-        final String password = "svrm umzx hkmm koeg";    // use App Password (not Gmail password)
+        final String fromEmail = "emaple@gmail.com"; // sender's email
+        final String password = "abcd efgh ijkl mnop";    // use App Password (not Gmail password)
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com"); // SMTP Host

@@ -9,7 +9,7 @@ import java.net.URLEncoder;
 public class SmsUtil {
 	public static void sendSms(String mobile, String message) {
         try {
-            String apiKey = "470833AnBUbCdsDYJ68d63971P1";
+            String apiKey = "";
             String senderId = "E-Cart";
             String urlStr = "https://api.msg91.com/api/sendhttp.php?"
                 + "mobiles=" + mobile

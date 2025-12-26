@@ -226,7 +226,7 @@
             .then(res => res.json())
             .then(order => {
                 const options = {
-                    key: "rzp_test_Rd8cnewTjhB38q", // Replace with your Key ID
+                    key: "", // Replace with your Key ID
                     amount: order.amount,
                     currency: "INR",
                     name: "E-Cart",
