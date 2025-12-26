@@ -1,4 +1,12 @@
+# Ignore Java build files
 /build/
 /target/
 *.class
+
+# Environment variables
 .env
+
+# IDE files
+.idea/
+.vscode/
+*.iml
