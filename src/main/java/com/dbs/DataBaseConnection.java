@@ -26,7 +26,7 @@ public class DataBaseConnection {
      
         try {
         	Class.forName("com.mysql.cj.jdbc.Driver");
-        	con = DriverManager.getConnection("jdbc:mysql://localhost:3306/electronic?user=root&password=devansh@64");
+        	con = DriverManager.getConnection("jdbc:mysql://localhost:3306/electronic?user=username-here&password=your-password-here");
         	System.out.println("Connection established");
         }catch(Exception e) {
         	e.printStackTrace();
